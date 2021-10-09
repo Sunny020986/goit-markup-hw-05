@@ -336,6 +336,7 @@ margin left: 50px;
   align-items: center;
   position: absolute;
   bottom: 0;
+  z-index: 1;
 }
 
 .activiti-content {
