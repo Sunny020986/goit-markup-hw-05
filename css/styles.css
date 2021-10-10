@@ -119,7 +119,7 @@ ul {
 .activ-page::after {
   content: ;
   position: absolute;
-  bottom: 1px;
+  bottom: -1px;
   left: 0;
   width: 100%;
   height: 4px;
@@ -276,7 +276,8 @@ margin left: 50px;
 }
 
 .backdrop.is-hidden {
-  opacity: 0.5;
+  opacity: 0;
+  visibility: hidden;
   pointer-events: none;
 }
 
