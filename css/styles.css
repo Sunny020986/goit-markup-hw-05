@@ -327,7 +327,7 @@ margin left: 50px;
 }
 
 .activiti-tittle-block {
-  width: 370px;
+  width: 100%;
   height: 70px;
   background: rgba(47, 48, 58, 0.8);
 
@@ -336,7 +336,6 @@ margin left: 50px;
   align-items: center;
   position: absolute;
   bottom: 0;
-  z-index: 1;
 }
 
 .activiti-content {
