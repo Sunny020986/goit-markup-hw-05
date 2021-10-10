@@ -68,7 +68,7 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button class="main-btn" type="button">Заказать услугу</button>
+          <button class="main-btn" type="button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
 
@@ -181,7 +181,6 @@
       </section>
 
       <!--*********************  team section  ********************-->
-
       <section class="team section">
         <div class="container">
           <h2 class="tittle-team">Наша команда</h2>
@@ -391,7 +390,6 @@
       </section>
 
       <!-- *******************  clients section  ***************** -->
-
       <section class="section">
         <div class="container">
           <h2 class="clients-name">Постоянные клиенты</h2>
@@ -509,5 +507,20 @@
         </div>
       </div>
     </footer>
+
+    <!--  ****************** modal window ******************** -->>
+    <div  class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button data-modal-close class="modal-close-button" type="button">
+          <svg class="modal-close-icon" >
+            <use href="./images/symbol-defs.svg#icon-close">
+
+            </use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
+</body>
   </body>
 </html>
